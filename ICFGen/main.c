@@ -175,9 +175,12 @@ int main(int argc, const char * argv[]) {
                 printf("Can't find images!\n");
                 return -1;
             }
+            ColorEntry* colorStoredNext;
             do {
                 fwrite(colorCurrent->components, 1, 3, output);
-            } while((colorCurrent=colorCurrent->next));
+                colorStoredNext=colorCurrent->next;
+                free(colorCurrent);
+            } while((colorCurrent=colorStoredNext));
             fclose(output);
             printf("All done!\n");
         }
