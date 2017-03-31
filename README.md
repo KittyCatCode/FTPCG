@@ -21,5 +21,15 @@ The long part is finished, now let's use the second program to make some composi
 
 Because compgen doesn't use the video's frames, instead using an icf file, it is super fast. This lets you try different widths without having to wait a long time.
 
+# What's in an ICF file?
+
+It's just a list of colors.
+
+    RGBRGBRG
+    BRGBRGBR
+    GBRGBRGB
+
+and so on.
+
 # Tresgatos Software Development?
 http://tresgatos.tk/
