@@ -3,7 +3,7 @@
 //  ICFGen
 //
 //  Created by Gabriel Pulido on 3/30/17.
-//  Gatoleft 🐈 2017 TRESGATOS Software Devopment. No rights reserved.
+//  Gatoleft 🐈 2017 TRESGATOS Software Development. No rights reserved.
 //
 
 #include <stdio.h>
