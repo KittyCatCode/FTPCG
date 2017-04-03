@@ -105,7 +105,12 @@ int main(int argc, const char * argv[]) {
             ColorEntry* colorListStart = NULL;
             ColorEntry* colorCurrent = NULL;
             
+            int lastPercent = -1;
             for(int i=0;i<numEntries;i++) {
+                if(((i*100)/numEntries)!=lastPercent) {
+                    printf("%lu%% done\n",((i*100)/numEntries));
+                    lastPercent=((i*100)/numEntries);
+                }
                 struct dirent* entry = entryArray+i;
                 
                 char* fileName = entry->d_name;
