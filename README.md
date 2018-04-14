@@ -1,5 +1,5 @@
 # FTPCG
-Fast Two-Part Composite Generator v1.0, by TRESGATOS Software Development.
+Fast Two-Part Composite Generator v1.0, by ungato.
 
 # How do I use it?
 First, compile the two programs.
@@ -34,6 +34,3 @@ It's just a list of colors.
     GBRGBRGB
 
 and so on.
-
-# Tresgatos Software Development?
-http://tresgatos.tk/
